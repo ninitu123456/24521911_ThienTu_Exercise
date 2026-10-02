@@ -1,0 +1,82 @@
+/* T-02A: Design Tokens */
+
+:root {
+    /* Colors */
+    --color-background: #ffffff;
+    --color-surface: #f8fafc;
+    --color-text: #0f172a;
+    --color-text-muted: #475569;
+    --color-primary: #2563eb;
+    --color-border: #cbd5e1;
+
+    /* Typography */
+    --font-family-base: Arial, Helvetica, sans-serif;
+
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 2rem;
+
+    /* Spacing */
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 2rem;
+    --space-xl: 4rem;
+
+    /* Layout */
+    --content-max-width: 1200px;
+
+    /* Border */
+    --border-radius: 0.5rem;
+}
+
+/* Global Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    background: var(--color-background);
+    color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: var(--color-primary);
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}

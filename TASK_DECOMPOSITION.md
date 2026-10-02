@@ -37,3 +37,30 @@ Create an accessible semantic HTML foundation for the developer portfolio.
 **Atomic Commit:**
 
 `feat(html): semantic landmark tree`
+
+---
+
+## Exercise 2: Enterprise Developer Portfolio Decomposition Pipeline
+
+### T-02A: Tokens & Reset
+
+**Objective:**  
+Create reusable CSS design tokens and establish a consistent global CSS reset.
+
+**Requirements:**
+
+- Define reusable CSS design tokens using custom properties.
+- Define theme colors as CSS variables.
+- Add a global CSS reset.
+- Use `box-sizing: border-box`.
+- Remove default margin and padding.
+- Do not use JavaScript in this task.
+- Do not hardcode color hex values inside component rules.
+
+**Files:**
+
+- `css/tokens.css`
+
+**Atomic Commit:**
+
+`feat(css): tokens & reset`
