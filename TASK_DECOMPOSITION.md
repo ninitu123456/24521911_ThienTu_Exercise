@@ -127,3 +127,16 @@ Create an accessible hero component for the developer portfolio.
 - Include a short professional pitch.
 - Use semantic HTML.
 - Use existing CSS design tokens.
+
+### T-03B: Theme Switcher
+
+**Objective:**  
+Provide an accessible theme switching component.
+
+**Requirements:**
+
+- Use a native button.
+- Expose the current state using `aria-pressed`.
+- Update the icon dynamically.
+- Provide an accessible label.
+- Preserve the selected theme using the existing theme engine.

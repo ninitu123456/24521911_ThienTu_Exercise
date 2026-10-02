@@ -34,3 +34,18 @@
         grid-template-columns: minmax(200px, 320px) minmax(0, 1fr);
     }
 }
+/* T-03B: Theme Switcher */
+
+#theme-toggle {
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-surface);
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+#theme-toggle:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
