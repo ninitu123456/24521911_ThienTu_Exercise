@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/tokens.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/skeleton.css">
 </head>
 
 <body>
@@ -140,7 +141,26 @@
     </section>
 
 </section>
+<section id="data-component" aria-labelledby="data-title">
 
+    <h2 id="data-title">Latest Items</h2>
+
+    <section
+        id="loading-state"
+        aria-label="Loading items"
+        aria-live="polite"
+    >
+        <p>Loading...</p>
+
+        <section class="skeleton-list" aria-hidden="true">
+            <p class="skeleton-item"></p>
+            <p class="skeleton-item"></p>
+            <p class="skeleton-item"></p>
+        </section>
+
+    </section>
+
+</section>
         <section id="contact" aria-labelledby="contact-title">
 
     <h2 id="contact-title">Contact</h2>

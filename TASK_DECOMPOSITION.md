@@ -178,3 +178,53 @@ Create an accessible contact form with native validation and client-side state h
 - Use native HTML validation.
 - Provide client-side form state handling.
 - Provide accessible status feedback.
+---
+
+## Exercise 4: Resilient Component Architecture
+
+### State Machine Contract
+
+The resilient data component supports four states:
+
+1. Loading
+2. Live
+3. Empty
+4. Error
+
+### State Transitions
+
+- Initial → Loading
+- Loading → Live when data is successfully loaded.
+- Loading → Empty when the request succeeds but contains no data.
+- Loading → Error when data loading fails.
+- Error → Loading when the user activates Retry.
+
+### Accessibility Contract
+
+- Loading state must communicate that content is loading.
+- Live state must expose loaded content semantically.
+- Empty state must clearly communicate that no data is available.
+- Error state must communicate the failure.
+- Retry must use an accessible native button.
+
+### T-03A: Loading Skeleton
+
+**Objective:**  
+Provide visual loading feedback while component data is being loaded.
+
+**Requirements:**
+
+- Use a pure CSS shimmer animation.
+- Do not use JavaScript for the animation.
+- Display multiple skeleton placeholders.
+- Loading state must be accessible.
+- Respect the user's reduced-motion preference.
+
+**Files:**
+
+- `portfolio.html`
+- `css/skeleton.css`
+
+**Atomic Commit:**
+
+`feat(css): skeleton`

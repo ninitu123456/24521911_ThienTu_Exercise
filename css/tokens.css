@@ -8,7 +8,8 @@
     --color-text-muted: #475569;
     --color-primary: #2563eb;
     --color-border: #cbd5e1;
-
+    --color-skeleton-base: #e2e8f0;
+    --color-skeleton-highlight: #f8fafc;
     /* Typography */
     --font-family-base: Arial, Helvetica, sans-serif;
 
@@ -37,6 +38,8 @@
     --color-text-muted: #cbd5e1;
     --color-primary: #60a5fa;
     --color-border: #475569;
+    --color-skeleton-base: #1e293b;
+    --color-skeleton-highlight: #334155;
 }
 /* Global Reset */
 
