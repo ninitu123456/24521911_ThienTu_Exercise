@@ -1,0 +1,36 @@
+/* T-03A: Hero Component */
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: var(--space-lg);
+}
+
+#hero img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+#hero article {
+    display: grid;
+    gap: var(--space-md);
+}
+
+#hero h1 {
+    font-size: var(--font-size-xl);
+}
+
+#hero p {
+    color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+    #hero {
+        grid-template-columns: minmax(200px, 320px) minmax(0, 1fr);
+    }
+}

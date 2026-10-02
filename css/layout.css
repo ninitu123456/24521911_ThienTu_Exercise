@@ -1,0 +1,47 @@
+/* T-02B: Responsive Grid Layout */
+
+body {
+    overflow-x: hidden;
+}
+
+header,
+main,
+footer {
+    width: min(100% - 2rem, var(--content-max-width));
+    margin-inline: auto;
+}
+
+header,
+footer {
+    padding-block: var(--space-md);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-lg);
+}
+
+section {
+    min-width: 0;
+    padding: var(--space-lg);
+    background: var(--color-surface);
+    border-radius: var(--border-radius);
+}
+
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    #hero,
+    #contact {
+        grid-column: 1 / -1;
+    }
+}

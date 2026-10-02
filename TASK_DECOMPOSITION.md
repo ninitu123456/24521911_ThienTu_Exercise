@@ -86,3 +86,44 @@ Create a responsive two-dimensional page layout using CSS Grid.
 **Atomic Commit:**
 
 `feat(css): responsive grid`
+
+### T-02C: Theme Engine
+
+**Objective:**  
+Implement persistent light and dark theme switching.
+
+**Requirements:**
+
+- Support light and dark themes.
+- Persist the selected theme using `localStorage`.
+- Use exactly `theme` as the localStorage key.
+- Theme colors must use CSS custom properties.
+- Theme switching must produce zero console errors.
+
+**Files:**
+
+- `css/tokens.css`
+- `js/theme.js`
+- `portfolio.html`
+
+**Atomic Commit:**
+
+`feat(js): dark mode engine`
+
+---
+
+## Exercise 3: Component Architecture & State Modeling
+
+### T-03A: Hero Section
+
+**Objective:**  
+Create an accessible hero component for the developer portfolio.
+
+**Requirements:**
+
+- Include a high-resolution portrait.
+- Define explicit image width and height.
+- Include a primary headline.
+- Include a short professional pitch.
+- Use semantic HTML.
+- Use existing CSS design tokens.
