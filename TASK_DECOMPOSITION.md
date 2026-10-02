@@ -64,3 +64,25 @@ Create reusable CSS design tokens and establish a consistent global CSS reset.
 **Atomic Commit:**
 
 `feat(css): tokens & reset`
+
+### T-02B: 2D Grid Layout
+
+**Objective:**  
+Create a responsive two-dimensional page layout using CSS Grid.
+
+**Requirements:**
+
+- Use CSS Grid for the primary layout.
+- Use a single-column layout on mobile devices.
+- Use a two-column layout on larger screens.
+- Prevent horizontal scrolling at 375px viewport width.
+- Use existing design tokens where applicable.
+- Do not include JavaScript in this task.
+
+**Files:**
+
+- `css/layout.css`
+
+**Atomic Commit:**
+
+`feat(css): responsive grid`
