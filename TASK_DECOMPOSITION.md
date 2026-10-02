@@ -140,3 +140,15 @@ Provide an accessible theme switching component.
 - Update the icon dynamically.
 - Provide an accessible label.
 - Preserve the selected theme using the existing theme engine.
+
+### T-03C: Skills Matrix
+
+**Objective:**  
+Display technical skills in categorized groups.
+
+**Requirements:**
+
+- Organize skills into categories.
+- Represent individual skills using badges.
+- Use CSS Grid for the skills layout.
+- Use semantic HTML.

@@ -49,3 +49,41 @@
     outline: 2px solid var(--color-primary);
     outline-offset: 2px;
 }
+
+/* T-03C: Skills Matrix */
+
+#skills {
+    display: grid;
+    gap: var(--space-md);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(180px, 1fr)
+    );
+    gap: var(--space-md);
+    padding: 0;
+}
+
+.skills-grid article {
+    display: grid;
+    gap: var(--space-sm);
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+}
+
+.badge {
+    width: fit-content;
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-background);
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+}
