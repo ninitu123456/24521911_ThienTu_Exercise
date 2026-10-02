@@ -87,3 +87,44 @@
     color: var(--color-text);
     font-size: var(--font-size-sm);
 }
+
+/* T-03D: Project Cards */
+
+#projects {
+    display: grid;
+    gap: var(--space-md);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: var(--space-md);
+    padding: 0;
+}
+
+.project-card {
+    display: grid;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-background);
+}
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: var(--space-sm);
+}
+
+.project-card p {
+    color: var(--color-text-muted);
+}
+
+.card-footer {
+    margin-top: auto;
+}

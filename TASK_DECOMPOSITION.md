@@ -152,3 +152,16 @@ Display technical skills in categorized groups.
 - Represent individual skills using badges.
 - Use CSS Grid for the skills layout.
 - Use semantic HTML.
+
+### T-03D: Project Cards
+
+**Objective:**  
+Create self-contained semantic project components.
+
+**Requirements:**
+
+- Each project must use an `<article>` element.
+- Include project title.
+- Include technology tags.
+- Include project description.
+- Include accessible project links.
