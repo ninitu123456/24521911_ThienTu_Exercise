@@ -203,3 +203,21 @@
 .data-item p {
     color: var(--color-text-muted);
 }
+
+/* T-03C: Empty State */
+
+#empty-state {
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+#empty-state:not([hidden]) {
+    display: grid;
+}
+
+#empty-state p {
+    color: var(--color-text-muted);
+}

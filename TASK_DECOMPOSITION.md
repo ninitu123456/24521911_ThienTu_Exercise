@@ -246,3 +246,15 @@ Display successfully loaded data using a resilient and semantic component struct
 
 - `portfolio.html`
 - `css/components.css`
+
+### T-03C: Empty State
+
+**Objective:**  
+Provide accessible feedback when the data request succeeds but contains no items.
+
+**Requirements:**
+
+- Display a clear empty-state message.
+- Use semantic HTML.
+- Keep the Empty state separate from Loading and Live states.
+- Ensure only the active state is visible.

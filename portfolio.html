@@ -144,7 +144,7 @@
 <section id="data-component" aria-labelledby="data-title">
 
     <h2 id="data-title">Latest Items</h2>
-
+    
     <section
         id="loading-state"
         aria-label="Loading items"
@@ -163,6 +163,7 @@
     <section
     id="live-state"
     aria-label="Loaded items"
+    hidden
 >
     <section class="data-grid">
 
@@ -209,6 +210,16 @@
         </article>
 
     </section>
+</section>
+<section
+    id="empty-state"
+    aria-label="No items available"
+>
+    <h3>No items found</h3>
+
+    <p>
+        There are currently no items available to display.
+    </p>
 </section>
 </section>
         <section id="contact" aria-labelledby="contact-title">
