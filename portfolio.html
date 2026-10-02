@@ -214,12 +214,28 @@
 <section
     id="empty-state"
     aria-label="No items available"
+    hidden
 >
     <h3>No items found</h3>
 
     <p>
         There are currently no items available to display.
     </p>
+</section>
+<section
+    id="error-state"
+    aria-label="Unable to load items"
+    role="alert"
+>
+    <h3>Unable to load items</h3>
+
+    <p>
+        Something went wrong while loading the data.
+    </p>
+
+    <button type="button" id="retry-button">
+        Retry
+    </button>
 </section>
 </section>
         <section id="contact" aria-labelledby="contact-title">

@@ -221,3 +221,34 @@
 #empty-state p {
     color: var(--color-text-muted);
 }
+
+/* T-03C: Error State */
+
+#error-state {
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+}
+
+#error-state:not([hidden]) {
+    display: grid;
+}
+
+#error-state p {
+    color: var(--color-text-muted);
+}
+
+#retry-button {
+    width: fit-content;
+    padding: var(--space-sm) var(--space-md);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    background: var(--color-primary);
+    cursor: pointer;
+}
+
+#retry-button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}

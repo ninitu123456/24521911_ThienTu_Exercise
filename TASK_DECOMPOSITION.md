@@ -258,3 +258,22 @@ Provide accessible feedback when the data request succeeds but contains no items
 - Use semantic HTML.
 - Keep the Empty state separate from Loading and Live states.
 - Ensure only the active state is visible.
+
+### T-03C: Error State & Retry
+
+**Objective:**  
+Provide accessible error feedback and allow the user to retry loading data.
+
+**Requirements:**
+
+- Display a clear error message.
+- Provide an accessible native Retry button.
+- Retry must transition the component back to Loading.
+- Only one component state may be visible at a time.
+- Manage Loading, Live, Empty, and Error states using client-side JavaScript.
+
+**Files:**
+
+- `portfolio.html`
+- `css/components.css`
+- `js/state.js`
