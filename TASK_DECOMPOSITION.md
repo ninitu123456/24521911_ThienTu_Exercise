@@ -228,3 +228,21 @@ Provide visual loading feedback while component data is being loaded.
 **Atomic Commit:**
 
 `feat(css): skeleton`
+
+### T-03B: Live Data State
+
+**Objective:**  
+Display successfully loaded data using a resilient and semantic component structure.
+
+**Requirements:**
+
+- Display loaded items using semantic `<article>` elements.
+- Arrange the item collection using CSS Grid.
+- Arrange metadata badges using Flexbox.
+- Reuse existing badge styles and design tokens.
+- Keep the Live state separate from Loading, Empty, and Error states.
+
+**Files:**
+
+- `portfolio.html`
+- `css/components.css`
