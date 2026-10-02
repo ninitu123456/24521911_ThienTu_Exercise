@@ -165,3 +165,16 @@ Create self-contained semantic project components.
 - Include technology tags.
 - Include project description.
 - Include accessible project links.
+
+### T-03E: Contact Form
+
+**Objective:**  
+Create an accessible contact form with native validation and client-side state handling.
+
+**Requirements:**
+
+- Use semantic form controls.
+- Associate labels with inputs.
+- Use native HTML validation.
+- Provide client-side form state handling.
+- Provide accessible status feedback.
